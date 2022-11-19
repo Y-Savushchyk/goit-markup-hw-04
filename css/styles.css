@@ -133,12 +133,13 @@ img {
 
 .contacts .link {
   text-decoration: none;
-  color: var(--primary-title-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
