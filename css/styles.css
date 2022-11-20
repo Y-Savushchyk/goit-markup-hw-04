@@ -229,7 +229,8 @@ footer .logo {
   margin: auto;
   /*outline: 1px solid red;*/
 }
-.socail-link:hover {
+.socail-link:hover,
+.socail-link:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
@@ -321,7 +322,8 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.card:hover {
+.card:hover,
+.card:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /*главная страница*/
@@ -518,7 +520,8 @@ p {
   margin: auto;
   /*outline: 1px solid red;*/
 }
-.socail-link:hover {
+.socail-link:hover,
+.socail-link:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
@@ -566,7 +569,8 @@ p {
 .client-icon {
   fill: currentColor;
 }
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   color: var(--accent-color);
 
   border-color: var(--accent-color);
