@@ -201,6 +201,38 @@ footer .logo {
 .address .link:focus {
   color: var(--accent-color);
 }
+.flex {
+  display: flex;
+}
+.footer-contacts-flex {
+  margin-right: 70px;
+}
+.footer-social-flex {
+  margin: 0;
+}
+.footer-social-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-white-color);
+}
+.social-icon {
+  margin: auto;
+  /*outline: 1px solid red;*/
+}
+.socail-link:hover {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
 /*страничка портфолио*/
 h1,
 h2,
@@ -522,34 +554,3 @@ p {
   border: 1px solid var(--accent-color);
 }
 /*---------черновик футера-----*/
-.flex {
-  display: flex;
-}
-.footer-contacts-flex {
-  margin-right: 70px;
-}
-.footer-social-flex {
-  margin: 0;
-}
-.footer-social-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-  margin-top: 12px;
-  margin-bottom: 20px;
-}
-.footer-link {
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--primary-white-color);
-}
-.social-icon {
-  margin: auto;
-  /*outline: 1px solid red;*/
-}
-.socail-link:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-white-color);
-}
