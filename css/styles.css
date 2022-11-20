@@ -565,5 +565,6 @@ p {
 }
 .client-link:hover {
   color: var(--accent-color);
+
   border-color: var(--accent-color);
 }
