@@ -493,9 +493,16 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
 .clients-list {
   display: flex;
-  padding-top: 50px;
 }
 .clients-item {
   border: 1px solid #afb1b8;
