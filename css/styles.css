@@ -547,6 +547,9 @@ p {
   width: 170px;
   height: 90px;
 }
+.client-item {
+  margin-right: 30px;
+}
 .client-item:last-child {
   margin-right: 0px;
 }
